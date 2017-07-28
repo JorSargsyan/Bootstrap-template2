@@ -1,0 +1,106 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.logo {
+  font-size: 20px;
+  margin: 20px; }
+
+.list li {
+  list-style-type: none;
+      margin-top: 24px;
+    margin-right: 25px; }
+
+.header {
+  box-shadow: 0 0 5px; }
+
+.header-img{
+  height: 800px;
+  background-image: url("http://cdn.wallpapersafari.com/71/17/ZuAEdb.jpg");
+  background-size:cover;
+}
+
+.header-img h3{
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 50%;
+  left :0;
+  text-align: center;
+}
+
+.header-img h3 span{
+  background:rgba(0, 0, 0, 0.72);
+  padding: 10px;
+}
+
+.gallery div{
+  margin-bottom: 20px;
+}
+
+.gallery span{
+  position: absolute;
+  top: 0;
+  left: 15;
+  background-color: rgba(0, 0, 0, 0.72);
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.content h3{
+  font-weight: bolder;
+  padding-bottom: 15px;
+  border-bottom: 1px solid gray;
+}
+
+.content {
+  margin-bottom:50px;
+}
+
+
+.contact-btn{
+width: 100%;
+max-width: 500px;
+height: 40px;
+background-color: #cecece;
+font-size: 18px;
+border: none;
+}
+
+.submit-btn{
+  margin-top: 20px;
+  padding: 10px;
+  background:black;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+
+.inp{
+  font-size: 18px;
+  padding: 10px;
+  width: 100%;
+  display:block;
+  border:none;
+  border-bottom: 2px solid #cecece;
+}
+
+
+#footer{
+  margin: 0;
+  padding:0;
+  background: black;
+  color: white;
+  text-align: center;
+  height:100px;
+  margin: auto 0;
+}
+
+
+#footer p{
+  margin-top: 15px;
+}
